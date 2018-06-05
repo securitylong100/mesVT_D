@@ -21,7 +21,7 @@ using System.Security.Cryptography;
 namespace Com.Nidec.Mes.VCVP
 {
     public partial class FormMain : GlobalMasterMaintenance.FormCommonNCVP
-    {
+    { //new
         public FormMain()
         {
             InitializeComponent();
