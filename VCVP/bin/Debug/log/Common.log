@@ -621,3 +621,5 @@ System.FormatException: Input string was not in a correct format.
 2018-05-31 16:16:36,966 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-31 16:16:36
 2018-05-31 16:16:45,116 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-31 16:16:45
 2018-05-31 16:17:16,576 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-31 16:17:16
+2018-06-18 13:24:42,498 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-18 13:24:42
+2018-06-18 13:25:56,697 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-18 13:25:56

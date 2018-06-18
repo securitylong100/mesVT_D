@@ -75,7 +75,7 @@
   <ItemGroup>
     <Reference Include="Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\fw\NidecMES\Dll\Framework.dll</HintPath>
+      <HintPath>..\..\fw\NidecMES\Dll\Framework.dll</HintPath>
     </Reference>
     <Reference Include="GlobalMasterMaintenance, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -84,8 +84,9 @@
     <Reference Include="log4net">
       <HintPath>..\..\..\FW\NidecMES\Dll\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MachineMaintenance">
-      <HintPath>..\..\..\COMMON_BASIC\CommonBasicApplicationForNidecMES\MachineMaintenance\obj\Debug\MachineMaintenance.dll</HintPath>
+    <Reference Include="MachineMaintenance, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\fw\NidecMES\Dll\MachineMaintenance.dll</HintPath>
     </Reference>
     <Reference Include="npgsql">
       <HintPath>..\..\..\FW\NidecMES\Dll\npgsql.dll</HintPath>
