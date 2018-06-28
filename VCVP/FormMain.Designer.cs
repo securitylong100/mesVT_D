@@ -107,11 +107,12 @@
             this.VTFunction_grb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
             this.vt_tabpage = new Com.Nidec.Mes.Framework.TabControlCommon();
             this.VLH_tp = new System.Windows.Forms.TabPage();
+            this.maintenance_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.movingmachine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.buttonCommon1 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.buttonCommon2 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.VT_tp = new System.Windows.Forms.TabPage();
             this.labelCommon3 = new Com.Nidec.Mes.Framework.LabelCommon();
-            this.movingmachine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -1242,6 +1243,7 @@
             // 
             // VLH_tp
             // 
+            this.VLH_tp.Controls.Add(this.maintenance_btn);
             this.VLH_tp.Controls.Add(this.movingmachine_btn);
             this.VLH_tp.Controls.Add(this.buttonCommon1);
             this.VLH_tp.Controls.Add(this.buttonCommon2);
@@ -1252,6 +1254,34 @@
             this.VLH_tp.TabIndex = 0;
             this.VLH_tp.Text = "Viet Long Hung";
             this.VLH_tp.UseVisualStyleBackColor = true;
+            // 
+            // maintenance_btn
+            // 
+            this.maintenance_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.maintenance_btn.ControlId = "mmob028";
+            this.maintenance_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.maintenance_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.maintenance_btn.Location = new System.Drawing.Point(203, 92);
+            this.maintenance_btn.Name = "maintenance_btn";
+            this.maintenance_btn.Size = new System.Drawing.Size(156, 44);
+            this.maintenance_btn.TabIndex = 64;
+            this.maintenance_btn.Text = "Maintenance Machine";
+            this.maintenance_btn.UseVisualStyleBackColor = false;
+            this.maintenance_btn.Click += new System.EventHandler(this.maintenance_btn_Click);
+            // 
+            // movingmachine_btn
+            // 
+            this.movingmachine_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.movingmachine_btn.ControlId = "mmob027";
+            this.movingmachine_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.movingmachine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.movingmachine_btn.Location = new System.Drawing.Point(23, 92);
+            this.movingmachine_btn.Name = "movingmachine_btn";
+            this.movingmachine_btn.Size = new System.Drawing.Size(156, 44);
+            this.movingmachine_btn.TabIndex = 63;
+            this.movingmachine_btn.Text = "Moving Machine";
+            this.movingmachine_btn.UseVisualStyleBackColor = false;
+            this.movingmachine_btn.Click += new System.EventHandler(this.movingmachine_btn_Click);
             // 
             // buttonCommon1
             // 
@@ -1306,20 +1336,6 @@
             this.labelCommon3.Text = "Local Master";
             this.labelCommon3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // movingmachine_btn
-            // 
-            this.movingmachine_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.movingmachine_btn.ControlId = "mmob026";
-            this.movingmachine_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.movingmachine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.movingmachine_btn.Location = new System.Drawing.Point(23, 92);
-            this.movingmachine_btn.Name = "movingmachine_btn";
-            this.movingmachine_btn.Size = new System.Drawing.Size(156, 44);
-            this.movingmachine_btn.TabIndex = 63;
-            this.movingmachine_btn.Text = "Moving Machine";
-            this.movingmachine_btn.UseVisualStyleBackColor = false;
-            this.movingmachine_btn.Click += new System.EventHandler(this.movingmachine_btn_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1367,7 +1383,6 @@
             this.vt_tabpage.ResumeLayout(false);
             this.VLH_tp.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1456,5 +1471,6 @@
         private Framework.ButtonCommon buttonCommon2;
         private System.Windows.Forms.TabPage VT_tp;
         private Framework.ButtonCommon movingmachine_btn;
+        private Framework.ButtonCommon maintenance_btn;
     }
 }

@@ -505,5 +505,11 @@ namespace Com.Nidec.Mes.VCVP
             MovingMachineVTForm movingform = new MovingMachineVTForm();
             movingform.ShowDialog();
         }
+
+        private void maintenance_btn_Click(object sender, EventArgs e)
+        {
+            MaintenanceMachineVTForm mainternanceform = new MaintenanceMachineVTForm();
+            mainternanceform.ShowDialog();
+        }
     }
 }
