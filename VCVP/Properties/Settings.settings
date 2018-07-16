@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="APPLICATION_HEADER" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Viet Tien Warehouse System</Value>
+      <Value Profile="(Default)">Nidec Warehouse System</Value>
     </Setting>
     <Setting Name="ApplicationTypeName" Type="System.String" Scope="User">
       <Value Profile="(Default)">Com.Nidec.Mes.VCVP.FormMain</Value>

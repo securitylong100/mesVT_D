@@ -25,7 +25,7 @@ namespace Com.Nidec.Mes.VCVP.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Viet Tien Warehouse System")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Nidec Warehouse System")]
         public string APPLICATION_HEADER {
             get {
                 return ((string)(this["APPLICATION_HEADER"]));
