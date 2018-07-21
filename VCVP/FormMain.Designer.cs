@@ -111,7 +111,6 @@
             this.movingmachine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.buttonCommon1 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.buttonCommon2 = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.VT_tp = new System.Windows.Forms.TabPage();
             this.labelCommon3 = new Com.Nidec.Mes.Framework.LabelCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
@@ -1233,7 +1232,6 @@
             // 
             this.vt_tabpage.ControlId = null;
             this.vt_tabpage.Controls.Add(this.VLH_tp);
-            this.vt_tabpage.Controls.Add(this.VT_tp);
             this.vt_tabpage.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vt_tabpage.Location = new System.Drawing.Point(6, 49);
             this.vt_tabpage.Name = "vt_tabpage";
@@ -1252,34 +1250,34 @@
             this.VLH_tp.Padding = new System.Windows.Forms.Padding(3);
             this.VLH_tp.Size = new System.Drawing.Size(528, 362);
             this.VLH_tp.TabIndex = 0;
-            this.VLH_tp.Text = "Viet Long Hung";
+            this.VLH_tp.Text = "Main Process";
             this.VLH_tp.UseVisualStyleBackColor = true;
             // 
             // maintenance_btn
             // 
             this.maintenance_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.maintenance_btn.ControlId = "mmob028";
+            this.maintenance_btn.ControlId = "mmob029";
             this.maintenance_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.maintenance_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.maintenance_btn.Location = new System.Drawing.Point(203, 92);
             this.maintenance_btn.Name = "maintenance_btn";
             this.maintenance_btn.Size = new System.Drawing.Size(156, 44);
             this.maintenance_btn.TabIndex = 64;
-            this.maintenance_btn.Text = "Maintenance Machine";
+            this.maintenance_btn.Text = "Bảo Trì";
             this.maintenance_btn.UseVisualStyleBackColor = false;
             this.maintenance_btn.Click += new System.EventHandler(this.maintenance_btn_Click);
             // 
             // movingmachine_btn
             // 
             this.movingmachine_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.movingmachine_btn.ControlId = "mmob027";
+            this.movingmachine_btn.ControlId = "mmob028";
             this.movingmachine_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.movingmachine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.movingmachine_btn.Location = new System.Drawing.Point(23, 92);
             this.movingmachine_btn.Name = "movingmachine_btn";
             this.movingmachine_btn.Size = new System.Drawing.Size(156, 44);
             this.movingmachine_btn.TabIndex = 63;
-            this.movingmachine_btn.Text = "Moving Machine";
+            this.movingmachine_btn.Text = "Lưu Chuyển";
             this.movingmachine_btn.UseVisualStyleBackColor = false;
             this.movingmachine_btn.Click += new System.EventHandler(this.movingmachine_btn_Click);
             // 
@@ -1293,7 +1291,7 @@
             this.buttonCommon1.Name = "buttonCommon1";
             this.buttonCommon1.Size = new System.Drawing.Size(156, 44);
             this.buttonCommon1.TabIndex = 61;
-            this.buttonCommon1.Text = "Warehouse VT Admin";
+            this.buttonCommon1.Text = "Trang Chính";
             this.buttonCommon1.UseVisualStyleBackColor = false;
             this.buttonCommon1.Click += new System.EventHandler(this.buttonCommon1_Click_1);
             // 
@@ -1307,19 +1305,9 @@
             this.buttonCommon2.Name = "buttonCommon2";
             this.buttonCommon2.Size = new System.Drawing.Size(155, 44);
             this.buttonCommon2.TabIndex = 62;
-            this.buttonCommon2.Text = "Warehouse VT User";
+            this.buttonCommon2.Text = "Kiểm Kê";
             this.buttonCommon2.UseVisualStyleBackColor = false;
             this.buttonCommon2.Click += new System.EventHandler(this.buttonCommon2_Click_1);
-            // 
-            // VT_tp
-            // 
-            this.VT_tp.Location = new System.Drawing.Point(4, 24);
-            this.VT_tp.Name = "VT_tp";
-            this.VT_tp.Padding = new System.Windows.Forms.Padding(3);
-            this.VT_tp.Size = new System.Drawing.Size(528, 362);
-            this.VT_tp.TabIndex = 1;
-            this.VT_tp.Text = "Viet Tien";
-            this.VT_tp.UseVisualStyleBackColor = true;
             // 
             // labelCommon3
             // 
@@ -1383,6 +1371,7 @@
             this.vt_tabpage.ResumeLayout(false);
             this.VLH_tp.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1469,7 +1458,6 @@
         private Framework.TabControlCommon vt_tabpage;
         private System.Windows.Forms.TabPage VLH_tp;
         private Framework.ButtonCommon buttonCommon2;
-        private System.Windows.Forms.TabPage VT_tp;
         private Framework.ButtonCommon movingmachine_btn;
         private Framework.ButtonCommon maintenance_btn;
     }
