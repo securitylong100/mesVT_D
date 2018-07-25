@@ -82,3 +82,15 @@ D:\VT CP\mesVT_D\VCVP\bin\Debug\zh-Hans\Framework.resources.dll
 D:\VT CP\mesVT_D\VCVP\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\VT CP\mesVT_D\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll
 D:\VT CP\mesVT_D\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache
+D:\VT CP\mesVT_D\VCVP\bin\Debug\GlobalMasterMaintenance.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\log4net.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\npgsql.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\GlobalMasterMaintenance.pdb
+D:\VT CP\mesVT_D\VCVP\bin\Debug\log4net.xml
+D:\VT CP\mesVT_D\VCVP\bin\Debug\ca\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\ja-JP\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\sq-AL\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\vi\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\vi-VN\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\zh-CHS\GlobalMasterMaintenance.resources.dll
+D:\VT CP\mesVT_D\VCVP\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll

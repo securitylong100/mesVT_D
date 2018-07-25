@@ -1095,7 +1095,7 @@
             this.Role_btn.Name = "Role_btn";
             this.Role_btn.Size = new System.Drawing.Size(201, 41);
             this.Role_btn.TabIndex = 31;
-            this.Role_btn.Text = "Role";
+            this.Role_btn.Text = "Danh Sách Quyền";
             this.Role_btn.UseVisualStyleBackColor = false;
             this.Role_btn.Click += new System.EventHandler(this.Role_btn_Click);
             // 
@@ -1109,7 +1109,7 @@
             this.RoleAuthorityControl_btn.Name = "RoleAuthorityControl_btn";
             this.RoleAuthorityControl_btn.Size = new System.Drawing.Size(201, 41);
             this.RoleAuthorityControl_btn.TabIndex = 33;
-            this.RoleAuthorityControl_btn.Text = "Role Authority Control";
+            this.RoleAuthorityControl_btn.Text = "Quyền ID Chứng Thực";
             this.RoleAuthorityControl_btn.UseVisualStyleBackColor = false;
             this.RoleAuthorityControl_btn.Click += new System.EventHandler(this.RoleAuthorityControl_btn_Click);
             // 
@@ -1138,7 +1138,7 @@
             this.UserRoles_btn.Name = "UserRoles_btn";
             this.UserRoles_btn.Size = new System.Drawing.Size(199, 41);
             this.UserRoles_btn.TabIndex = 32;
-            this.UserRoles_btn.Text = "User Roles";
+            this.UserRoles_btn.Text = "Quyền User";
             this.UserRoles_btn.UseVisualStyleBackColor = false;
             this.UserRoles_btn.Click += new System.EventHandler(this.UserRoles_btn_Click);
             // 
@@ -1152,7 +1152,7 @@
             this.auth_cotrol_bt.Name = "auth_cotrol_bt";
             this.auth_cotrol_bt.Size = new System.Drawing.Size(199, 41);
             this.auth_cotrol_bt.TabIndex = 26;
-            this.auth_cotrol_bt.Text = "Authority Controler";
+            this.auth_cotrol_bt.Text = "ID Chứng Thực";
             this.auth_cotrol_bt.UseVisualStyleBackColor = false;
             this.auth_cotrol_bt.Click += new System.EventHandler(this.auth_cotrol_bt_Click);
             // 
@@ -1166,7 +1166,7 @@
             this.userfac_bt.Name = "userfac_bt";
             this.userfac_bt.Size = new System.Drawing.Size(199, 41);
             this.userfac_bt.TabIndex = 27;
-            this.userfac_bt.Text = "User Factory";
+            this.userfac_bt.Text = "Tài Khoản và Nhà Máy";
             this.userfac_bt.UseVisualStyleBackColor = false;
             this.userfac_bt.Click += new System.EventHandler(this.userfac_bt_Click);
             // 
@@ -1180,7 +1180,7 @@
             this.factory_bt.Name = "factory_bt";
             this.factory_bt.Size = new System.Drawing.Size(200, 41);
             this.factory_bt.TabIndex = 28;
-            this.factory_bt.Text = "Factory";
+            this.factory_bt.Text = "Nhà Máy";
             this.factory_bt.UseVisualStyleBackColor = false;
             this.factory_bt.Click += new System.EventHandler(this.factory_bt_Click);
             // 
@@ -1194,7 +1194,7 @@
             this.language_bt.Name = "language_bt";
             this.language_bt.Size = new System.Drawing.Size(199, 41);
             this.language_bt.TabIndex = 29;
-            this.language_bt.Text = "Language";
+            this.language_bt.Text = "Ngôn Ngữ";
             this.language_bt.UseVisualStyleBackColor = false;
             this.language_bt.Click += new System.EventHandler(this.language_bt_Click);
             // 
@@ -1208,7 +1208,7 @@
             this.local_user_btn.Name = "local_user_btn";
             this.local_user_btn.Size = new System.Drawing.Size(200, 41);
             this.local_user_btn.TabIndex = 30;
-            this.local_user_btn.Text = "Register Local User";
+            this.local_user_btn.Text = "Đăng Ký Tài Khoản";
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
             // 
@@ -1331,19 +1331,19 @@
             this.ClientSize = new System.Drawing.Size(723, 588);
             this.ControlId = "frm001";
             this.Controls.Add(this.Menu_gpb);
-            this.Controls.Add(this.VTFunction_grb);
-            this.Controls.Add(this.NcvpMaster_gpb);
             this.Controls.Add(this.SystemMaster_gpb);
             this.Controls.Add(this.NCVP_Function_gr);
+            this.Controls.Add(this.VTFunction_grb);
+            this.Controls.Add(this.NcvpMaster_gpb);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.Text = "Viet Tien Warehouse System";
             this.TitleText = "Viet Tien Warehouse Function";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.Controls.SetChildIndex(this.NCVP_Function_gr, 0);
-            this.Controls.SetChildIndex(this.SystemMaster_gpb, 0);
             this.Controls.SetChildIndex(this.NcvpMaster_gpb, 0);
             this.Controls.SetChildIndex(this.VTFunction_grb, 0);
+            this.Controls.SetChildIndex(this.NCVP_Function_gr, 0);
+            this.Controls.SetChildIndex(this.SystemMaster_gpb, 0);
             this.Controls.SetChildIndex(this.Menu_gpb, 0);
             this.Menu_gpb.ResumeLayout(false);
             this.groupBoxCommon7.ResumeLayout(false);
