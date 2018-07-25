@@ -208,7 +208,7 @@
             this.groupBoxCommon1.Size = new System.Drawing.Size(137, 100);
             this.groupBoxCommon1.TabIndex = 1;
             this.groupBoxCommon1.TabStop = false;
-            this.groupBoxCommon1.Text = "Master Maintenance";
+            this.groupBoxCommon1.Text = "Việt Tiến ";
             // 
             // NcvpMaster_btn
             // 
@@ -220,7 +220,7 @@
             this.NcvpMaster_btn.Name = "NcvpMaster_btn";
             this.NcvpMaster_btn.Size = new System.Drawing.Size(125, 33);
             this.NcvpMaster_btn.TabIndex = 1;
-            this.NcvpMaster_btn.Text = "Local Master";
+            this.NcvpMaster_btn.Text = "Chức Năng";
             this.NcvpMaster_btn.UseVisualStyleBackColor = false;
             this.NcvpMaster_btn.Click += new System.EventHandler(this.NcvpMaster_btn_Click);
             // 
@@ -234,7 +234,7 @@
             this.SystemMaster_btn.Name = "SystemMaster_btn";
             this.SystemMaster_btn.Size = new System.Drawing.Size(125, 33);
             this.SystemMaster_btn.TabIndex = 0;
-            this.SystemMaster_btn.Text = "System Master";
+            this.SystemMaster_btn.Text = "Cấu Hình";
             this.SystemMaster_btn.UseVisualStyleBackColor = false;
             this.SystemMaster_btn.Click += new System.EventHandler(this.SystemMaster_btn_Click);
             // 
@@ -1226,7 +1226,7 @@
             this.VTFunction_grb.Size = new System.Drawing.Size(544, 439);
             this.VTFunction_grb.TabIndex = 53;
             this.VTFunction_grb.TabStop = false;
-            this.VTFunction_grb.Text = "VT Function";
+            this.VTFunction_grb.Text = "Chức Năng";
             // 
             // vt_tabpage
             // 
@@ -1250,7 +1250,7 @@
             this.VLH_tp.Padding = new System.Windows.Forms.Padding(3);
             this.VLH_tp.Size = new System.Drawing.Size(528, 362);
             this.VLH_tp.TabIndex = 0;
-            this.VLH_tp.Text = "Main Process";
+            this.VLH_tp.Text = "Hạng Mục";
             this.VLH_tp.UseVisualStyleBackColor = true;
             // 
             // maintenance_btn
@@ -1321,7 +1321,7 @@
             this.labelCommon3.Name = "labelCommon3";
             this.labelCommon3.Size = new System.Drawing.Size(538, 24);
             this.labelCommon3.TabIndex = 46;
-            this.labelCommon3.Text = "Local Master";
+            this.labelCommon3.Text = "Hệ Thống Chức Năng Việt Tiến";
             this.labelCommon3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FormMain
@@ -1331,19 +1331,19 @@
             this.ClientSize = new System.Drawing.Size(723, 588);
             this.ControlId = "frm001";
             this.Controls.Add(this.Menu_gpb);
-            this.Controls.Add(this.SystemMaster_gpb);
-            this.Controls.Add(this.NCVP_Function_gr);
             this.Controls.Add(this.VTFunction_grb);
             this.Controls.Add(this.NcvpMaster_gpb);
+            this.Controls.Add(this.SystemMaster_gpb);
+            this.Controls.Add(this.NCVP_Function_gr);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
-            this.Text = "Viet Tien Warehouse System";
-            this.TitleText = "Viet Tien Warehouse Function";
+            this.Text = "Hệ Thống Quản Lý Thiết Bị Việt Tiến";
+            this.TitleText = "Hệ Thống Quản Lý Thiết Bị Việt Tiến";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.Controls.SetChildIndex(this.NcvpMaster_gpb, 0);
-            this.Controls.SetChildIndex(this.VTFunction_grb, 0);
             this.Controls.SetChildIndex(this.NCVP_Function_gr, 0);
             this.Controls.SetChildIndex(this.SystemMaster_gpb, 0);
+            this.Controls.SetChildIndex(this.NcvpMaster_gpb, 0);
+            this.Controls.SetChildIndex(this.VTFunction_grb, 0);
             this.Controls.SetChildIndex(this.Menu_gpb, 0);
             this.Menu_gpb.ResumeLayout(false);
             this.groupBoxCommon7.ResumeLayout(false);

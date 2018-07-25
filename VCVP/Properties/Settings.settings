@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="APPLICATION_HEADER" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Phần Mềm Quản Lý Thiết Bị Việt Tiến</Value>
+      <Value Profile="(Default)">Hệ Thống Quản Lý Thiết Bị Việt Tiến</Value>
     </Setting>
     <Setting Name="ApplicationTypeName" Type="System.String" Scope="User">
       <Value Profile="(Default)">Com.Nidec.Mes.VCVP.FormMain</Value>

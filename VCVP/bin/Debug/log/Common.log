@@ -625,3 +625,19 @@ System.FormatException: Input string was not in a correct format.
 2018-06-18 13:25:56,697 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-18 13:25:56
 2018-07-25 17:46:41,306 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 05:46:41 PM
 2018-07-25 17:47:19,595 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 05:47:19 PM
+2018-07-25 18:01:13,672 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:01:13 PM
+2018-07-25 18:01:32,725 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.AddMaintenanceMachineVTForm] [mmce00001]Record is already registered
+2018-07-25 18:06:22,694 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:06:22 PM
+2018-07-25 18:06:35,084 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 06:06:35 PM
+2018-07-25 18:06:41,828 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:06:41 PM
+2018-07-25 18:07:03,101 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 06:07:03 PM
+2018-07-25 18:11:28,727 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:11:28 PM
+2018-07-25 18:12:07,806 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.AddMovingMachineVTForm] [mmce00001]Record is already registered
+2018-07-25 18:13:28,533 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Factory Master].[LoginUser : Admin Viet Long Hung] Start.
+2018-07-25 18:13:30,365 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Factory Master].[LoginUser : Admin Viet Long Hung] End.
+2018-07-25 18:14:02,261 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 06:14:02 PM
+2018-07-25 18:21:18,708 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:21:18 PM
+2018-07-25 18:21:19,359 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2018-07-25 18:21:20,430 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 06:21:20 PM
+2018-07-25 18:21:22,587 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-07-25 06:21:22 PM
+2018-07-25 18:21:49,267 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-07-25 06:21:49 PM
